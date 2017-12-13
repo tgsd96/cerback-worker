@@ -4,7 +4,7 @@ import MySQLdb
 configFile = open("./.config/config.yaml", mode='r')
 yaml = YAML()
 CONFIGS = yaml.load(configFile.read())
-env = 'dev'
+env = 'prod'
 DB_HOST = CONFIGS['db'][env]['host']
 DB_USER = CONFIGS['db'][env]['user']
 DB_PASSWORD = CONFIGS['db'][env]['pass']
