@@ -3,3 +3,7 @@
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+**/cerback-worker/
+**/node_modules/
+**/.config/
+**fine-tuning.hdf5
